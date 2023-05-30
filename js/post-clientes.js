@@ -26,7 +26,7 @@ function getDadosForm () {
 
 async function enviarDadosParaAPI (cliente) {
   try {
-    const resposta = await fetch('http://localhost:3000/api/clientes', {
+    const resposta = await fetch('http://localhost:3000/api/cliente', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
